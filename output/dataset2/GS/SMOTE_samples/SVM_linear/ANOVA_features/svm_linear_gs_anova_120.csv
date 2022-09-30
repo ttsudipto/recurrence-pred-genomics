@@ -1,0 +1,5 @@
+Kernel,C,Min_Dec_Score,Max_Dec_Score,Threshold,Accuracy,Sensitivity,Specificity,F1-score,MCC,BA,Accuracy_bcv,Sensitivity_bcv,Specificity_bcv,F1-score_bcv,MCC_bcv,BA_bcv,Accuracy_blind,Sensitivity_blind,Specificity_blind,F1-score_blind,MCC_blind,BA_blind
+linear,1,-8.9,6.4,0.5,0.958,0.988,0.928,0.96,0.919,0.958,0.83,0.527,0.91,0.563,0.47,0.718,0.868,0.545,0.952,0.632,0.564,0.749
+linear,5,-8.9,6.4,0.5,0.958,0.988,0.928,0.96,0.919,0.958,0.83,0.527,0.91,0.563,0.47,0.718,0.868,0.545,0.952,0.632,0.564,0.749
+linear,10,-8.9,6.4,0.5,0.958,0.988,0.928,0.96,0.919,0.958,0.83,0.527,0.91,0.563,0.47,0.718,0.868,0.545,0.952,0.632,0.564,0.749
+linear,15,-8.9,6.4,0.5,0.958,0.988,0.928,0.96,0.919,0.958,0.83,0.527,0.91,0.563,0.47,0.718,0.868,0.545,0.952,0.632,0.564,0.749
