@@ -132,3 +132,4 @@ dmypy.json
 .kdev4/
 .directory
 .Rhistory
+output/*/FS/*/*.rds
