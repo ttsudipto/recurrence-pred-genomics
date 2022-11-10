@@ -1,0 +1,141 @@
+attribute,position,CSC_marker_type
+AURKC,1,Interactor to other cancer CSC marker
+SMC1B,2,Interactor to other cancer CSC marker
+OSBPL1A,3,NSCLC CSC marker
+CLIC2,4,Not a CSC marker
+MOCS1,5,Other cancer CSC marker
+FCGR3A,6,Not a CSC marker
+KBTBD12,7,Not a CSC marker
+CBX5,8,Other cancer CSC marker
+EXOC5,9,Interactor to NSCLC CSC marker
+DICER1,10,Interactor to NSCLC CSC marker
+DDX55,11,NSCLC CSC marker
+UNC93A,12,Not a CSC marker
+SEPSECS,13,Not a CSC marker
+HOXC4,14,Other cancer CSC marker
+IL13RA2,15,Other cancer CSC marker
+CENPK,16,Other cancer CSC marker
+GTPBP2,17,Interactor to NSCLC CSC marker
+NEURL3,18,Other cancer CSC marker
+C1QC,19,Not a CSC marker
+NSFL1C,20,Other cancer CSC marker
+RNF34,21,Not a CSC marker
+RPGRIP1,22,Not a CSC marker
+GLRA1,23,Not a CSC marker
+PNLIPRP3,24,Other cancer CSC marker
+FXYD2,25,NSCLC CSC marker
+RAD9B,26,Not a CSC marker
+GNPDA2,27,Not a CSC marker
+KCNS2,28,Not a CSC marker
+CREBL2,29,NSCLC CSC marker
+DENND2D,30,Other cancer CSC marker
+FUT4,31,NSCLC CSC marker
+CD2AP,32,Not a CSC marker
+PRLR,33,Other cancer CSC marker
+NXPH1,34,Not a CSC marker
+OMG,35,Not a CSC marker
+NOX5,36,Other cancer CSC marker
+ZNF787,37,NSCLC CSC marker
+PTGES3,38,Other cancer CSC marker
+ELAVL2,39,NSCLC CSC marker
+SCN5A,40,Not a CSC marker
+UPB1,41,Interactor to NSCLC CSC marker
+KCTD14,42,NSCLC CSC marker
+MSC,43,Not a CSC marker
+NMI,44,NSCLC CSC marker
+APOL3,45,Not a CSC marker
+TAF7L,46,Not a CSC marker
+SRBD1,47,Not a CSC marker
+DLK1,48,Interactor to other cancer CSC marker
+IL17REL,49,Other cancer CSC marker
+HIP1R,50,Interactor to other cancer CSC marker
+TACC3,51,Not a CSC marker
+STYXL1,52,NSCLC CSC marker
+DERA,53,Not a CSC marker
+CD52,54,Not a CSC marker
+ARX,55,Not a CSC marker
+ANO9,56,Other cancer CSC marker
+CLSTN3,57,Other cancer CSC marker
+DCHS2,58,Interactor to other cancer CSC marker
+MAPKAPK5,59,Interactor to other cancer CSC marker
+TXNIP,60,NSCLC CSC marker
+AP2B1,61,Other cancer CSC marker
+DUSP1,62,NSCLC CSC marker
+BAZ1B,63,Interactor to other cancer CSC marker
+ARL14,64,Other cancer CSC marker
+GJC2,65,Other cancer CSC marker
+TRIM13,66,NSCLC CSC marker
+ORAI2,67,Other cancer CSC marker
+STOX1,68,Other cancer CSC marker
+HOXC8,69,Not a CSC marker
+GNAI1,70,Other cancer CSC marker
+PPP1R3B,71,Not a CSC marker
+RELB,72,NSCLC CSC marker
+PIK3IP1,73,Other cancer CSC marker
+UCK2,74,Other cancer CSC marker
+FAM151A,75,Not a CSC marker
+GDF5,76,Not a CSC marker
+INSL4,77,NSCLC CSC marker
+CCNC,78,Not a CSC marker
+FBXO16,79,Not a CSC marker
+SGK2,80,Interactor to other cancer CSC marker
+ITGAL,81,NSCLC CSC marker
+CASP1,82,Other cancer CSC marker
+RIMBP2,83,Not a CSC marker
+PSMB8,84,Other cancer CSC marker
+CNGA1,85,Other cancer CSC marker
+EXOC3L4,86,Other cancer CSC marker
+RAC2,87,NSCLC CSC marker
+PDE6D,88,Interactor to NSCLC CSC marker
+UNC5A,89,Other cancer CSC marker
+RBP5,90,Not a CSC marker
+MAP3K7,91,Interactor to other cancer CSC marker
+ZNF843,92,Not a CSC marker
+SLC23A1,93,NSCLC CSC marker
+HOXC11,94,Not a CSC marker
+ITM2A,95,Not a CSC marker
+C14orf39,96,Not a CSC marker
+C12orf45,97,Not a CSC marker
+ITGB1BP2,98,Not a CSC marker
+VASN,99,Interactor to NSCLC CSC marker
+AQP2,100,Other cancer CSC marker
+GNAT3,101,Interactor to NSCLC CSC marker
+KCNB2,102,Not a CSC marker
+SYNPO2,103,Interactor to NSCLC CSC marker
+TBC1D22B,104,Not a CSC marker
+STX18,105,Interactor to other cancer CSC marker
+RFFL,106,Not a CSC marker
+PRPF4B,107,Other cancer CSC marker
+DNMBP,108,NSCLC CSC marker
+USP37,109,Other cancer CSC marker
+FIBCD1,110,Not a CSC marker
+DRD1,111,Other cancer CSC marker
+E2F3,112,Other cancer CSC marker
+GABRA2,113,Not a CSC marker
+OAZ3,114,Not a CSC marker
+KIAA0513,115,Not a CSC marker
+NBAS,116,Other cancer CSC marker
+YPEL1,117,Not a CSC marker
+SLAMF7,118,Not a CSC marker
+SUMO4,119,Other cancer CSC marker
+WDR75,120,Not a CSC marker
+C19orf57,121,Not a CSC marker
+ANKS4B,122,NSCLC CSC marker
+KRTAP5-1,123,Not a CSC marker
+CDHR2,124,Interactor to other cancer CSC marker
+LRRTM1,125,Not a CSC marker
+KLF16,126,Not a CSC marker
+CD86,127,Not a CSC marker
+MFAP4,128,Not a CSC marker
+FOXG1,129,Other cancer CSC marker
+FMO2,130,Not a CSC marker
+ZNF133,131,Not a CSC marker
+PLOD2,132,NSCLC CSC marker
+MAPK14,133,Other cancer CSC marker
+MITD1,134,Not a CSC marker
+CUL3,135,Interactor to NSCLC CSC marker
+SPARCL1,136,Not a CSC marker
+ISL1,137,NSCLC CSC marker
+SLC29A2,138,Not a CSC marker
+HOXC12,139,Not a CSC marker
+CNIH2,140,Not a CSC marker

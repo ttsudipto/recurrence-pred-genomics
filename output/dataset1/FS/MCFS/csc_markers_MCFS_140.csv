@@ -1,0 +1,76 @@
+attribute,position,CANCER_TYPE,MARKER_TYPE,EXPRESSION_LEVEL,CELL_LINE,PUBMED_ID
+OSBPL1A,4,Non Small Cell Lung Cancer,HTM,Up,H2170,25881239
+HOXC4,5,Bladder Cancer,HTM,Up,SW780,29340052
+IL13RA2,6,Triple Negative Breast Cancer,HTM,Up,HCC1937,31709178
+NEURL3,7,Triple Negative Breast Cancer,HTM,Down,HCC1937,31709178
+PNLIPRP3,9,Triple Negative Breast Cancer,HTM,Down,SUM149PT,31709178
+FXYD2,11,Non Small Cell Lung Cancer,HTM,Down,A549,34059086
+FXYD2,11,Dukes Type C Colon Cancer,HTM,Up,SW620,22954703
+PRLR,17,Hepatic Cancer,"HTM, HTM","Down, Down","Hep3B, Huh7","26259570, 26259570"
+PRLR,17,Luminal A Breast Cancer,HTM,Up,MCF7,34680485
+NOX5,18,Triple Negative Breast Cancer,HTM,Down,SUM149PT,31709178
+ELAVL2,20,Non Small Cell Lung Cancer,HTM,Down,A549,25881239
+DENND2D,25,Triple Negative Breast Cancer,HTM,Down,HCC1937,31709178
+DENND2D,25,Colon Cancer,HTM,Up,Primary,20530554
+CBX5,27,Gastric Cancer,"HTM, HTM","Down, Down","NCI-N87, SNU484","30696080, 30696080"
+KCTD14,29,Non Small Cell Lung Cancer,"HTM, HTM","Down, Down","A549, A549","25881239, 25881239"
+ZNF787,30,Non Small Cell Lung Cancer,HTM,Down,A549,34059086
+MOCS1,31,Bladder Cancer,HTM,Down,SW780,29340052
+IL17REL,32,Luminal A Breast Cancer,HTM,Up,MCF7,34680485
+PTGES3,34,Pancreatic Cancer,"HTM, HTM","Down, Down","L3.6pl, L3.6sl","32503348, 32503348"
+ORAI2,36,Dukes Type C Colon Cancer,HTM,Down,SW620,22954703
+ANO9,37,Triple Negative Breast Cancer,HTM,Down,HCC1937,31709178
+NMI,38,Non Small Cell Lung Cancer,HTM,Down,A549,34059086
+GJC2,47,Hepatic Cancer,"HTM, HTM","Up, Up","Hep3B, Huh7","26259570, 26259570"
+AP2B1,48,Hepatic Cancer,"HTM, HTM, HTM","Up, Up, Up","Huh7, KMCH-1, WRL68","21618577, 21618577, 21618577"
+INSL4,52,Non Small Cell Lung Cancer,"HTM, HTM","Up, Up","A549, A549","25881239, 25881239"
+DDX55,53,Non Small Cell Lung Cancer,HTM,Up,A549,25881239
+CLSTN3,54,Luminal A Breast Cancer,HTM,Up,MCF7,34680485
+TXNIP,55,Non Small Cell Lung Cancer,HTM,Up,A549,35229723
+ARL14,57,Triple Negative Breast Cancer,HTM,Down,HCC1937,31709178
+UCK2,58,Luminal A Breast Cancer,HTM,Down,MCF7,34680485
+RELB,59,Triple Negative Breast Cancer,"HTM, HTM","Down, Down","BT-549, BT-549","29352988, 29352988"
+RELB,59,Luminal A Breast Cancer,HTM,Up,MCF7,34680485
+RELB,59,Non Small Cell Lung Cancer,"LTM, LTM","NA, NA","Primary, Primary","33925297, 33925297"
+PIK3IP1,62,Triple Negative Breast Cancer,HTM,Down,HCC1937,31709178
+PIK3IP1,62,Hepatic Cancer,"HTM, HTM","Down, Down","Hep3B, Huh7","26259570, 26259570"
+UNC5A,63,Triple Negative Breast Cancer,HTM,Down,HCC1937,31709178
+STOX1,67,Skin Cancer,HTM,Down,Primary,24098529
+DUSP1,68,Non Small Cell Lung Cancer,"HTM, HTM","Down, Down","A549, A549","34059086, 34059086"
+DUSP1,68,Hepatic Cancer,"HTM, HTM","Down, Down","Hep3B, Huh7","26259570, 26259570"
+PSMB8,73,Triple Negative Breast Cancer,HTM,Down,SUM149PT,31709178
+EXOC3L4,74,Triple Negative Breast Cancer,HTM,Down,SUM149PT,31709178
+AQP2,75,Luminal A Breast Cancer,HTM,Up,MCF7,34680485
+ITGAL,77,Non Small Cell Lung Cancer,HTM,Up,A549,29416721
+CASP1,78,Hepatic Cancer,"HTM, HTM, HTM","Up, Up, Up","Huh7, KMCH-1, WRL68","21618577, 21618577, 21618577"
+DRD1,82,Luminal A Breast Cancer,HTM,Up,MCF7,34680485
+RAC2,83,Non Small Cell Lung Cancer,"HTM, HTM, HTM","Down, Down, Down","A549, A549, H2170","25881239, 25881239, 25881239"
+TRIM13,86,Non Small Cell Lung Cancer,HTM,Up,H2170,25881239
+NSFL1C,87,Skin Cancer,HTM,Down,Primary,24098529
+SUMO4,88,Pancreatic Cancer,HTM,Down,MIA-PaCa-3,34168259
+CENPK,89,Dukes Type C Colon Cancer,HTM,Down,SW620,22954703
+CENPK,89,Colon Cancer,HTM,Up,Primary,28881576
+ANKS4B,90,Non Small Cell Lung Cancer,HTM,Up,A549,35229723
+GNAI1,91,Luminal A Breast Cancer,HTM,Up,MCF7,34680485
+GNAI1,91,Pancreatic Cancer,HTM,Down,PC1J,34168259
+SLC23A1,93,Non Small Cell Lung Cancer,HTM,Up,A549,25881239
+SLC23A1,93,Luminal A Breast Cancer,HTM,Up,MCF7,34680485
+FOXG1,94,Triple Negative Breast Cancer,HTM,Down,SUM149PT,31709178
+CNGA1,100,Luminal A Breast Cancer,HTM,Up,MCF7,34680485
+ISL1,102,Non Small Cell Lung Cancer,"HTM, HTM, HTM","Down, Down, Down","A549, A549, H2170","25881239, 25881239, 25881239"
+NBAS,107,Colon Cancer,HTM,Up,Primary,21788403
+E2F3,123,Dukes Type A Colon Cancer,LTM,NA,SW1116,23674142
+DNMBP,126,Non Small Cell Lung Cancer,HTM,Down,H2170,25881239
+DNMBP,126,Luminal A Breast Cancer,HTM,Down,MCF7,31501409
+PRSS1,128,Non Small Cell Lung Cancer,"HTM, HTM, HTM, HTM, HTM","Up, Down, Down, Down, Down","A549, A549, A549, H2170, H2170","33670440, 25881239, 25881239, 25881239, 25881239"
+PRSS1,128,Dukes Type C Colon Cancer,HTM,Down,SW620,22954703
+B2M,131,Pancreatic Cancer,"HTM, HTM","Up, Up","L3.6pl, L3.6sl","32503348, 32503348"
+B2M,131,Luminal A Breast Cancer,HTM,Down,MCF7,31501409
+B2M,131,Colon Cancer,HTM,Up,Primary,20530554
+HOXC9,133,Hepatic Cancer,"HTM, HTM, HTM","Up, Up, Up","Huh7, KMCH-1, WRL68","21618577, 21618577, 21618577"
+HOXC9,133,Skin Cancer,HTM,Down,Primary,24098529
+USP37,134,Luminal A Breast Cancer,LTM,NA,MCF7,30482232
+DKK1,135,Non Small Cell Lung Cancer,HTM,Down,H2170,25881239
+DKK1,135,Colon Cancer,HTM,Up,HT-29,17932721
+DKK1,135,Luminal A Breast Cancer,HTM,Down,MCF7,34680485
+DKK1,135,Dukes Type C Colon Cancer,HTM,Down,SW620,22954703
