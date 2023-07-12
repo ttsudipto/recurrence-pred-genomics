@@ -79,6 +79,83 @@ def plot_roc(model, verbose=False):
     return mean_fpr, mean_tpr, mean_auc, std_auc
 
 
+def plot_blind_roc(model, b_res, verbose=False):
+    X_test = model.dataScaler.transform(b_res.data)
+    y_test = b_res.target
+    #probas = model.get_decision_score(model.estimators[i], X_test)
+    if model.estimator_id == 'SVM':
+        probas = model.total_estimator.decision_function(X_test)
+        fpr, tpr, thresholds = roc_curve(y_test, probas)
+    elif model.estimator_id == 'MLP':
+        probas = model.total_estimator.predict_proba(X_test)
+        fpr, tpr, thresholds = roc_curve(y_test, probas[:, 1])
+    elif model.estimator_id == 'RF':
+        probas = model.total_estimator.predict_proba(X_test)
+        fpr, tpr, thresholds = roc_curve(y_test, probas[:, 1])
+    else :
+        raise ValueError('Invalid estimator ID')
+    roc_auc = auc(fpr, tpr)
+    if verbose:
+        print(roc_auc)
+    return roc_auc
+
+#n_features = get_optimal_no_of_features('dataset1', 'original', 'MCFS', 'RF')
+#cv_res, blind_res = read_input('dataset1', 'original', 'MCFS', n_features)
+#plot_blind_roc(create_model('dataset1', 'original', 'MCFS', 'RF'), blind_res, verbose=True) # Optimal RF
+#n_features = get_optimal_no_of_features('dataset1', 'original', 'MCFS', 'MLP')
+#cv_res, blind_res = read_input('dataset1', 'original', 'MCFS', n_features)
+#plot_blind_roc(create_model('dataset1', 'original', 'MCFS', 'MLP'), blind_res, verbose=True) # Optimal MLP
+#n_features = get_optimal_no_of_features('dataset1', 'original', 'MCFS', 'SVM')
+#cv_res, blind_res = read_input('dataset1', 'original', 'MCFS', n_features)
+#plot_blind_roc(create_model('dataset1', 'original', 'MCFS', 'SVM'), blind_res, verbose=True) # Optimal SVM
+#n_features = get_optimal_no_of_features('dataset1', 'original', 'Boruta', 'RF')
+#cv_res, blind_res = read_input('dataset1', 'original', 'Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'original', 'Boruta', 'RF'), blind_res, verbose=True)
+#n_features = get_optimal_no_of_features('dataset1', 'original', 'Boruta', 'MLP')
+#cv_res, blind_res = read_input('dataset1', 'original', 'Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'original', 'Boruta', 'MLP'), blind_res, verbose=True)
+#n_features = get_optimal_no_of_features('dataset1', 'original', 'Boruta', 'SVM')
+#cv_res, blind_res = read_input('dataset1', 'original', 'Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'original', 'Boruta', 'SVM'), blind_res, verbose=True)
+#n_features = get_optimal_no_of_features('dataset1', 'original', 'Combined_MCFS_Boruta', 'RF')
+#cv_res, blind_res = read_input('dataset1', 'original', 'Combined_MCFS_Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'original', 'Combined_MCFS_Boruta', 'RF'), blind_res, verbose=True)
+#n_features = get_optimal_no_of_features('dataset1', 'original', 'Combined_MCFS_Boruta', 'MLP')
+#cv_res, blind_res = read_input('dataset1', 'original', 'Combined_MCFS_Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'original', 'Combined_MCFS_Boruta', 'MLP'), blind_res, verbose=True)
+#n_features = get_optimal_no_of_features('dataset1', 'original', 'Combined_MCFS_Boruta', 'SVM')
+#cv_res, blind_res = read_input('dataset1', 'original', 'Combined_MCFS_Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'original', 'Combined_MCFS_Boruta', 'SVM'), blind_res, verbose=True)
+
+#n_features = get_optimal_no_of_features('dataset1', 'smote', 'MCFS', 'RF')
+#cv_res, blind_res = read_input('dataset1', 'smote', 'MCFS', n_features)
+#plot_blind_roc(create_model('dataset1', 'smote', 'MCFS', 'RF'), blind_res, verbose=True)
+#n_features = get_optimal_no_of_features('dataset1', 'smote', 'MCFS', 'MLP')
+#cv_res, blind_res = read_input('dataset1', 'smote', 'MCFS', n_features)
+#plot_blind_roc(create_model('dataset1', 'smote', 'MCFS', 'MLP'), blind_res, verbose=True)
+#n_features = get_optimal_no_of_features('dataset1', 'smote', 'MCFS', 'SVM')
+#cv_res, blind_res = read_input('dataset1', 'smote', 'MCFS', n_features)
+#plot_blind_roc(create_model('dataset1', 'smote', 'MCFS', 'SVM'), blind_res, verbose=True)
+#n_features = get_optimal_no_of_features('dataset1', 'smote', 'Boruta', 'RF')
+#cv_res, blind_res = read_input('dataset1', 'smote', 'Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'smote', 'Boruta', 'RF'), blind_res, verbose=True)
+#n_features = get_optimal_no_of_features('dataset1', 'smote', 'Boruta', 'MLP')
+#cv_res, blind_res = read_input('dataset1', 'smote', 'Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'smote', 'Boruta', 'MLP'), blind_res, verbose=True)
+#n_features = get_optimal_no_of_features('dataset1', 'smote', 'Boruta', 'SVM')
+#cv_res, blind_res = read_input('dataset1', 'smote', 'Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'smote', 'Boruta', 'SVM'), blind_res, verbose=True)
+#n_features = get_optimal_no_of_features('dataset1', 'smote', 'Combined_MCFS_Boruta', 'RF')
+#cv_res, blind_res = read_input('dataset1', 'smote', 'Combined_MCFS_Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'smote', 'Combined_MCFS_Boruta', 'RF'), blind_res, verbose=True) # Optimal RF
+#n_features = get_optimal_no_of_features('dataset1', 'smote', 'Combined_MCFS_Boruta', 'MLP')
+#cv_res, blind_res = read_input('dataset1', 'smote', 'Combined_MCFS_Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'smote', 'Combined_MCFS_Boruta', 'MLP'), blind_res, verbose=True) # Optimal MLP
+#n_features = get_optimal_no_of_features('dataset1', 'smote', 'Combined_MCFS_Boruta', 'SVM')
+#cv_res, blind_res = read_input('dataset1', 'smote', 'Combined_MCFS_Boruta', n_features)
+#plot_blind_roc(create_model('dataset1', 'smote', 'Combined_MCFS_Boruta', 'SVM'), blind_res, verbose=True) # Optimal SVM
+
+
 ############# Dataset 1 #############
 #plot_roc(create_model('dataset1', 'original', 'MCFS', 'SVM'), verbose=True) # Optimal SVM
 #plot_roc(create_model('dataset1', 'original', 'MCFS', 'MLP'), verbose=True) # Optimal MLP
