@@ -169,6 +169,9 @@ def plot_blind_roc(model, b_res, verbose=False):
 #plot_roc(create_model('dataset1', 'original', 'Combined_MCFS_Boruta', 'SVM'), verbose=True)
 #plot_roc(create_model('dataset1', 'original', 'Combined_MCFS_Boruta', 'MLP'), verbose=True)
 #plot_roc(create_model('dataset1', 'original', 'Combined_MCFS_Boruta', 'RF'), verbose=True)
+#plot_roc(create_model('dataset1', 'original', None, 'SVM'), verbose=True)
+#lot_roc(create_model('dataset1', 'original', None, 'MLP'), verbose=True)
+#plot_roc(create_model('dataset1', 'original', None, 'RF'), verbose=True)
 
 #plot_roc(create_model('dataset1', 'smote', 'MCFS', 'SVM'), verbose=True)
 #plot_roc(create_model('dataset1', 'smote', 'MCFS', 'MLP'), verbose=True)
@@ -182,6 +185,9 @@ def plot_blind_roc(model, b_res, verbose=False):
 #plot_roc(create_model('dataset1', 'smote', 'Combined_MCFS_Boruta', 'SVM'), verbose=True) # Optimal SVM
 #plot_roc(create_model('dataset1', 'smote', 'Combined_MCFS_Boruta', 'MLP'), verbose=True) # Optimal MLP
 #plot_roc(create_model('dataset1', 'smote', 'Combined_MCFS_Boruta', 'RF'), verbose=True) # Optimal RF
+#plot_roc(create_model('dataset1', 'smote', None, 'SVM'), verbose=True)
+#plot_roc(create_model('dataset1', 'smote', None, 'MLP'), verbose=True)
+#plot_roc(create_model('dataset1', 'smote', None, 'RF'), verbose=True)
 
 
 ############# Dataset 2 #############
