@@ -21,7 +21,10 @@ file_name = {'MCFS': 'FS/MCFS/features_MCFS_300ps_scaled.csv',
 def get_file_name_prefix(dataset):
     return path_prefix + dataset + '/'
 
+
 def get_top_features(dataset, num_features, fs_algo, verbose=False):
+    if fs_algo is None:
+        return None
     f = open(get_file_name_prefix(dataset) + file_name[fs_algo], 'r')
     reader = DictReader(f, delimiter=',')
     indices = []
@@ -107,4 +110,3 @@ def perform_ANOVA(res, verbose=False):
         print("Index", "position", "attribute", "F_val", "p_val")
         for i in range(len(results)):
             print(results[i][0]+1, i+1, res.gene_names[results[i][0]], results[i][1], results[i][2])
-

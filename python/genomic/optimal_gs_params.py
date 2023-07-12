@@ -5,12 +5,14 @@ optimal_no_of_features = {
             'MCFS': {'SVM': 60, 'RF': 100, 'MLP': 120}, 
             'Boruta': {'SVM': 140, 'RF': 100, 'MLP': 120}, 
             'ANOVA': {'SVM': 120, 'RF': 140, 'MLP': 140}, 
-            'Combined_MCFS_Boruta': {'SVM': 60, 'RF': 100, 'MLP': 140}
+            'Combined_MCFS_Boruta': {'SVM': 60, 'RF': 100, 'MLP': 140},
+            None: {'SVM': 17264, 'RF': 17264, 'MLP': 17264}
         }, 'original': {
             'MCFS': {'SVM': 140, 'RF': 20, 'MLP': 140}, 
             'Boruta': {'SVM': 20, 'RF': 60, 'MLP': 140}, 
             'ANOVA': {'SVM': 140, 'RF': 40, 'MLP': 120}, 
-            'Combined_MCFS_Boruta': {'SVM': 60, 'RF': 60, 'MLP': 120}
+            'Combined_MCFS_Boruta': {'SVM': 60, 'RF': 60, 'MLP': 120},
+            None: {'SVM': 17264, 'RF': 17264, 'MLP': 17264}
         }
     }, 'dataset2' : {
         'smote': {
@@ -46,12 +48,14 @@ optimal_thresholds = {
             'MCFS': {'SVM': 0, 'RF': None, 'MLP': None}, 
             'Boruta': {'SVM': 0.4, 'RF': None, 'MLP': None}, 
             'ANOVA': {'SVM': -0.1, 'RF': None, 'MLP': None}, 
-            'Combined_MCFS_Boruta': {'SVM': 0.4, 'RF': None, 'MLP': None}
+            'Combined_MCFS_Boruta': {'SVM': 0.4, 'RF': None, 'MLP': None},
+            None: {'SVM': -0.2, 'RF': None, 'MLP': None}
         }, 'original': {
             'MCFS': {'SVM': -0.3, 'RF': None, 'MLP': None}, 
             'Boruta': {'SVM': -0.1, 'RF': None, 'MLP': None}, 
             'ANOVA': {'SVM': -0.1, 'RF': None, 'MLP': None}, 
-            'Combined_MCFS_Boruta': {'SVM': -0.3, 'RF': None, 'MLP': None}
+            'Combined_MCFS_Boruta': {'SVM': -0.3, 'RF': None, 'MLP': None},
+            None: {'SVM': 0.1, 'RF': None, 'MLP': None}
         }
     }, 'dataset2' : {
         'smote': {
@@ -100,6 +104,11 @@ optimal_params = {
                 'SVM': {'kernel': 'poly', 'C': 1, 'degree': 2, 'gamma': 0.1, 'coef0': 1},
                 'RF': {'n_estimators': 400, 'max_depth': None, 'max_features': 0.25},
                 'MLP': {'activation': 'relu', 'hidden_layer_sizes': (250, 250), 'learning_rate_init': 0.0001}
+            },
+            None: {
+                'SVM': {'kernel': 'rbf', 'C': 5, 'degree': 0, 'gamma': 0.00001, 'coef0': 0},
+                'RF': {'n_estimators': 800, 'max_depth': None, 'max_features': 0.25},
+                'MLP': {'activation': 'relu', 'hidden_layer_sizes': (150,), 'learning_rate_init': 0.0001}
             }
         }, 'original': {
             'MCFS': {
@@ -118,6 +127,11 @@ optimal_params = {
                 'SVM': {'kernel': 'rbf', 'C': 5, 'degree': 0, 'gamma': 0.0001, 'coef0': 0},
                 'RF': {'n_estimators': 400, 'max_depth': None, 'max_features': None},
                 'MLP': {'activation': 'relu', 'hidden_layer_sizes': (50,25), 'learning_rate_init': 0.001}
+            },
+            None: {
+                'SVM': {'kernel': 'rbf', 'C': 10, 'degree': 0, 'gamma': 0.00001, 'coef0': 0},
+                'RF': {'n_estimators': 200, 'max_depth': None, 'max_features': 0.25},
+                'MLP': {'activation': 'relu', 'hidden_layer_sizes': (25,), 'learning_rate_init': 0.01}
             }
         }
     }, 'dataset2': {
